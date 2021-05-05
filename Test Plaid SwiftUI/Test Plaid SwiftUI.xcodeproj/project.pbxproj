@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D77C28212642F6A800B44668 /* Test_Plaid_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C28202642F6A800B44668 /* Test_Plaid_SwiftUIApp.swift */; };
+		D77C28252642F6AA00B44668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77C28242642F6AA00B44668 /* Assets.xcassets */; };
+		D77C28282642F6AA00B44668 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77C28272642F6AA00B44668 /* Preview Assets.xcassets */; };
+		D77C28312642F6C600B44668 /* LinkKitSwiftUISupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77C28302642F6C600B44668 /* LinkKitSwiftUISupport.swift */; };
+		D77C28392642F6F900B44668 /* LinkKit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77C28382642F6F900B44668 /* LinkKit.xcframework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D77C281D2642F6A800B44668 /* Test Plaid SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Plaid SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77C28202642F6A800B44668 /* Test_Plaid_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_Plaid_SwiftUIApp.swift; sourceTree = "<group>"; };
+		D77C28242642F6AA00B44668 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77C28272642F6AA00B44668 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D77C28292642F6AA00B44668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77C28302642F6C600B44668 /* LinkKitSwiftUISupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkKitSwiftUISupport.swift; sourceTree = "<group>"; };
+		D77C28342642F6E100B44668 /* LinkKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = LinkKit.xcframework; path = "../Projects/Projects/envelope-money-mobile/ios/External Dependencies/LinkKit.xcframework"; sourceTree = "<group>"; };
+		D77C28382642F6F900B44668 /* LinkKit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = LinkKit.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77C281A2642F6A800B44668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77C28392642F6F900B44668 /* LinkKit.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77C28142642F6A800B44668 = {
+			isa = PBXGroup;
+			children = (
+				D77C281F2642F6A800B44668 /* Test Plaid SwiftUI */,
+				D77C281E2642F6A800B44668 /* Products */,
+				D77C28332642F6E100B44668 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D77C281E2642F6A800B44668 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77C281D2642F6A800B44668 /* Test Plaid SwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77C281F2642F6A800B44668 /* Test Plaid SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D77C28202642F6A800B44668 /* Test_Plaid_SwiftUIApp.swift */,
+				D77C28302642F6C600B44668 /* LinkKitSwiftUISupport.swift */,
+				D77C28242642F6AA00B44668 /* Assets.xcassets */,
+				D77C28292642F6AA00B44668 /* Info.plist */,
+				D77C28262642F6AA00B44668 /* Preview Content */,
+			);
+			path = "Test Plaid SwiftUI";
+			sourceTree = "<group>";
+		};
+		D77C28262642F6AA00B44668 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D77C28272642F6AA00B44668 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D77C28332642F6E100B44668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77C28382642F6F900B44668 /* LinkKit.xcframework */,
+				D77C28342642F6E100B44668 /* LinkKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77C281C2642F6A800B44668 /* Test Plaid SwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77C282C2642F6AA00B44668 /* Build configuration list for PBXNativeTarget "Test Plaid SwiftUI" */;
+			buildPhases = (
+				D77C28192642F6A800B44668 /* Sources */,
+				D77C281A2642F6A800B44668 /* Frameworks */,
+				D77C281B2642F6A800B44668 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Plaid SwiftUI";
+			productName = "Test Plaid SwiftUI";
+			productReference = D77C281D2642F6A800B44668 /* Test Plaid SwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77C28152642F6A800B44668 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D77C281C2642F6A800B44668 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D77C28182642F6A800B44668 /* Build configuration list for PBXProject "Test Plaid SwiftUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D77C28142642F6A800B44668;
+			productRefGroup = D77C281E2642F6A800B44668 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77C281C2642F6A800B44668 /* Test Plaid SwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77C281B2642F6A800B44668 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77C28282642F6AA00B44668 /* Preview Assets.xcassets in Resources */,
+				D77C28252642F6AA00B44668 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77C28192642F6A800B44668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77C28312642F6C600B44668 /* LinkKitSwiftUISupport.swift in Sources */,
+				D77C28212642F6A800B44668 /* Test_Plaid_SwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D77C282A2642F6AA00B44668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D77C282B2642F6AA00B44668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77C282D2642F6AA00B44668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Test Plaid SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TQ8WWCUMH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Test Plaid SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testorg.Test-Plaid-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D77C282E2642F6AA00B44668 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Test Plaid SwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 3TQ8WWCUMH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Test Plaid SwiftUI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.testorg.Test-Plaid-SwiftUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77C28182642F6A800B44668 /* Build configuration list for PBXProject "Test Plaid SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77C282A2642F6AA00B44668 /* Debug */,
+				D77C282B2642F6AA00B44668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77C282C2642F6AA00B44668 /* Build configuration list for PBXNativeTarget "Test Plaid SwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77C282D2642F6AA00B44668 /* Debug */,
+				D77C282E2642F6AA00B44668 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D77C28152642F6A800B44668 /* Project object */;
+}
